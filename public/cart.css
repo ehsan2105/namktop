@@ -1,0 +1,27 @@
+.test {
+    opacity: 0;
+}
+
+.test:hover {
+    
+    opacity: 1;
+    transition: opacity 0.50s;
+}
+
+.test>* {
+    transform: translateX(20px);
+    transition: transform 0.50s;
+
+}
+
+.test:hover>* {
+    transform: translateX(0);
+}
+
+.testi{
+    transform: translateX(100px);
+    transition: transform 1.00s;
+}
+ .testi{
+    transform: translateX(0);
+ }
